@@ -1,0 +1,31 @@
+{
+  "homepage": "https://bikashshiwakoti.github.io/CameraApp",
+  "name": "myapp",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~50.0.14",
+    "expo-camera": "~14.1.2",
+    "expo-speech": "~11.7.0",
+    "expo-status-bar": "~1.11.1",
+    "react": "18.2.0",
+    "react-native": "0.73.6",
+    "react-native-maps": "^1.14.0",
+    "expo-screen-capture": "~5.8.1",
+    "react-native-view-shot": "3.8.0",
+    "expo-media-library": "~15.9.1",
+    "expo-av": "~13.10.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
